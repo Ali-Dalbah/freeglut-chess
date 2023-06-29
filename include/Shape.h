@@ -10,6 +10,7 @@ public:
     virtual void render(void) const;
     virtual void setColor(const float r, const float g, const float b, const float a);
     virtual void setColor(const Vector4f& color4fv);
+    ~Shape(void);
 private:
     Vector4f color4fv;
 protected:
